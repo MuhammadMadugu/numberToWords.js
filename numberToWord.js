@@ -280,10 +280,7 @@ function removeLeadingZeros(num) {
         inWord = "Not yet";
       }
 
-      // do some
 
-      inWord = (inWord == "Zero") ? '' : inWord+' Naira Only' 
-
-      $('#amount_in_words').html(inWord);
+     return inWord;
 
   }
